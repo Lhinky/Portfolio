@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(270deg, #ffffff, #ffe5d9, #ffd6c9);
+  background-size: 400% 400%;
+  animation: bgMove 10s ease infinite;
+}
+
+@keyframes bgMove {
+  0% { background-position: 0% }
+  50% { background-position: 100% }
+  100% { background-position: 0% }
+}
+
+nav {
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+header, section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Fade animation */
+.fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease;
+}
+
+.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.project {
+  background: white;
+  margin: 15px auto;
+  padding: 15px;
+  width: 60%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
