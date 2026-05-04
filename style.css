@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial;
-  background: linear-gradient(270deg, #ffffff, #ffe5d9, #ffd6c9);
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   background-size: 400% 400%;
   animation: bgMove 10s ease infinite;
 }
